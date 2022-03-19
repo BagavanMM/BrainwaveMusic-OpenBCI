@@ -81,7 +81,6 @@ def main():
 
     print("Converting data into music notes")
 
-    # degrees  = [60, 62, 64, 65, 67, 69, 71, 72] # MIDI note number
     track     = 0
     channel   = 0
     time_beat = 0   # In beats
@@ -95,11 +94,6 @@ def main():
     for pitch in musical_notes:
         MyMIDI.addNote(track, channel, pitch, time_beat, duration, volume)
         time_beat = time_beat + 1
-
-    # for pitch in beat:
-    #     MyMIDI.addNote(track, channel, pitch, time, duration, volume)
-    #     time = time + 1
-    #     MyMIDI.addNote(track, )
 
     with open("le-music.mid", "wb") as output_file:
         MyMIDI.writeFile(output_file)
