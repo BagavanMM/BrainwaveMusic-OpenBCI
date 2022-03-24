@@ -50,6 +50,6 @@ The music that is outputted will be stored in a MIDI file called `le-music.mid` 
 
 ## Contact
 
-Your Name - [@BagavanMM](https://twitter.com/BagavanMM) - bagavan.sivam@gmail.com
+Bagavan Marakathalingasivam - [@BagavanMM](https://twitter.com/BagavanMM) - bagavan.sivam@gmail.com
 
 Project Link: [https://github.com/BagavanMM/BrainwaveMusic-OpenBCI](https://github.com/BagavanMM/BrainwaveMusic-OpenBCI)
